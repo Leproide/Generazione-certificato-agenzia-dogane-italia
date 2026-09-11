@@ -1,6 +1,6 @@
 @echo off
-REM ============================================================
-REM  Gestione Certificati OpenSSL - Menu guidato
+REM ================================================================
+REM  Gestione Certificati OpenSSL - Menu guidato Dogane e Monopoli
 REM
 REM  License: GPL-3.0
 REM  Author: https://github.com/Leproide
@@ -8,7 +8,7 @@ REM
 REM  Questo programma e' software libero: puoi ridistribuirlo
 REM  e/o modificarlo nei termini della GNU General Public License
 REM  versione 3, come pubblicata dalla Free Software Foundation.
-REM ============================================================
+REM ================================================================
 
 setlocal EnableDelayedExpansion
 chcp 65001 >nul
@@ -82,6 +82,10 @@ if "%REQFILE%"=="" set "REQFILE=req.der"
 echo.
 echo Verranno richiesti i dati identificativi (paese, organizzazione, ecc.).
 echo Premi INVIO su un campo per lasciarlo vuoto.
+echo.
+echo  IMPORTANTE: nel campo "Common Name" inserisci la PARTITA IVA.
+echo  Se sbagli questo campo, il portale rifiutera' la richiesta piu' avanti.
+echo.
 echo La chiave viene generata SENZA passphrase (nessun prompt password).
 echo.
 pause
