@@ -1,4 +1,4 @@
-# Gestione Certificati OpenSSL
+# Generazione certificati Agenzia delle Dogane e dei Monopoli
 
 Script batch per Windows con **menù guidato** che automatizza la generazione della chiave, la conversione dei certificati e l'export finale in `.p12`, pensato per l'utente finale alle prese con la procedura dei certificati dell'**Agenzia delle Dogane e dei Monopoli**.
 
